@@ -17,6 +17,8 @@ Data fetching mechanics are isolated in [`src/fetch`](../master/src/fetch), whil
 The root folder contains configuration files for development tools: Babel, Jest, Watchman, Typescript.
 
 ## Unit tests
+`npm run test` to run all exisiting suites
+
 API response mock is in [`src/__mocks__`](../master/src/__mocks__) folder. Snapshots are in [`src/__snapshots__`](../master/src/__snapshots__) and [`src/components/__snapshots__`](../master/src/components/__snapshots__).
 
 Global `fetch()` method is mocked with [jest-fetch-mock](https://github.com/jefflau/jest-fetch-mock) package.
