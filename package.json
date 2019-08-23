@@ -1,0 +1,39 @@
+{
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "eject": "expo eject",
+    "test": "jest"
+  },
+  "jest": {
+    "preset": "jest-expo",
+    "transformIgnorePatterns": [
+      "node_modules/(?!(jest-)?react-native|react-clone-referenced-element|@react-native-community|expo(nent)?|@expo(nent)?/.*|react-navigation|@react-navigation/.*|@unimodules/.*|sentry-expo|native-base)"
+    ],
+    "setupFiles": [
+      "./setup-jest.ts"
+    ]
+  },
+  "dependencies": {
+    "expo": "^34.0.1",
+    "react": "^16.8.3",
+    "react-dom": "^16.8.6",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-34.0.0.tar.gz",
+    "react-native-web": "^0.11.4"
+  },
+  "devDependencies": {
+    "@types/jest": "^24.0.18",
+    "@types/react": "^16.8.23",
+    "@types/react-native": "^0.57.65",
+    "@types/react-test-renderer": "^16.9.0",
+    "babel-preset-expo": "^6.0.0",
+    "jest-expo": "^34.0.1",
+    "jest-fetch-mock": "^2.1.2",
+    "react-test-renderer": "^16.8.6",
+    "typescript": "^3.4.5"
+  },
+  "private": true
+}

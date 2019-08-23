@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Query string component Renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "borderBottomWidth": 1,
+      "borderColor": "#ccc",
+      "flexDirection": "row",
+      "paddingHorizontal": 5,
+    }
+  }
+>
+  <TextInput
+    allowFontScaling={true}
+    clearButtonMode="while-editing"
+    onChangeText={[MockFunction]}
+    placeholder="Search character by name"
+    rejectResponderTermination={true}
+    returnKeyType="search"
+    style={
+      Object {
+        "flex": 1,
+        "height": 40,
+      }
+    }
+    underlineColorAndroid="transparent"
+    value="Betty"
+  />
+</View>
+`;
